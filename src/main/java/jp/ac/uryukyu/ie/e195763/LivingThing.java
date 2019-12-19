@@ -16,9 +16,9 @@ public class LivingThing {
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
-     * @param name ヒーロー名
-     * @param maximumHP ヒーローのHP
-     * @param attack ヒーローの攻撃力
+     * @param name 生物名
+     * @param maximumHP 生物のHP
+     * @param attack 生物の攻撃力
      */
     public LivingThing (String name, int maximumHP, int attack) {
         setName(name);
